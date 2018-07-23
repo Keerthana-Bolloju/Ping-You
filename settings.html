@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Requi#996515 meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>Ping-You</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="padding-bottom:10px;border-bottom: 1px solid #ffffff; background-color: #000000;">
+  <h2 class="intro-bg">Ping-You</h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="messages.html">MESSAGES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="unread.html">UNREAD</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="settings.html">SETTINGS</a>
+      </li>
+      <li class="nav-item active">
+        <button type="button" class="btn btn-outline-warning">LOGOUT</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>  
+<div class="container-fluid" style="padding-top: 6vh;">
+  <div class="row" style="background-color: #000000;padding: 30px 0px;margin: 0px 10px;">
+    <div class="col-12 col-md-3" style="background-color:darkgoldenrod;padding:10px 0px 0px 0px;">
+
+      <!--UPPER MAIN CHATS STATUS CALLS NAV START -->
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="calls-tab" data-toggle="tab" href="#calls" role="tab" aria-controls="calls" aria-selected="false"><i class="fas fa-cog"></i> SETTINGS</a>
+        </li>
+      </ul>
+      <!--UPPER MAIN CHATS STATUS CALLS NAV END -->
+
+      <!--UPPER MAIN CHATS STATUS CALLS NAV CONTENT START -->
+      <div class="tab-content" id="myTabContent" style="background-color: #996515;">
+
+      <!--UPPER MAIN PROFILE NAV CONTENT START -->
+        <div class="tab-pane fade show active" id="calls" role="tabpanel" aria-labelledby="calls-tab">       
+
+          <div class="nav flex-column nav-pills" id="status-list-tab" role="tablist" aria-orientation="vertical">
+
+            <a class="nav-link active" id="twelve-tab" data-toggle="pill" href="#twelve" role="tab" aria-controls="twelve" aria-selected="false">
+              <div class="row" style="padding: 1vh 0;">
+                <div class="col-3 col-sm-3"> 
+                  <img src="images/profile.png" class="img-fluid rounded">
+                </div>
+                <div class="col-9 col-md-9">  
+                  <h4>Profile Settings</h4>
+                  <p>&nbsp;</p>
+                </div>
+              </div>         
+            </a>
+
+          </div>
+
+        </div>
+      <!--UPPER MAIN PROFILE NAV CONTENT END -->
+
+      </div>
+<!--UPPER MAIN CHATS STATUS CALLS NAV CONTENT CLOSE -->
+
+    </div>
+    <div class="col-12 col-md-9" style="background-color: goldenrod;">
+      <div class="tab-content" id="v-pills-tabContent">
+          
+
+        <!--SUBTAB 12 START -->
+        <div class="tab-pane fade show active" id="twelve" role="tabpanel" aria-labelledby="twelve-tab">
+           <div class="container" style="margin-top: 50px;">
+             <div class="row">
+               <div class="col-12 col-md-3"> 
+                 <p>Change Profile Image</p>
+                 <input type="file" name="image-upload">
+               </div>
+               <div class="col-12 col-md-6">
+                 <img src="images/profile.png" class="img-fluid rounded">
+               </div>
+               <div class="col-12 col-md-3"></div>
+             </div>
+           </div>
+        </div>
+        <!--SUBTAB 12 END -->
+
+      </div>
+    </div>
+  </div>
+  <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p class="text-center"><a href="https://twitter.com/mdo">COPYRIGHT © 2018 PING-YOU-KEERTHANA-BOLLOJU</a>.</p>
+        </div>
+      </footer>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
